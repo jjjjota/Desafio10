@@ -20,6 +20,18 @@ nav .icon-bar {
   background-color: #FFF;
 }
 
+nav .navbar-brand {
+  padding-left: 15vw;
+}
+
+nav a {
+  color: #FFF;
+}
+
+nav a:hover {
+  color: #000;
+}
+
 /* HEADER *****************************************************************************************/
 
 header {
