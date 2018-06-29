@@ -171,3 +171,16 @@ header .header__icon {
   text-decoration: none;
 }
 
+/* FOOTER *****************************************************************************************/
+
+.footer {
+  padding: 40px 0;
+  background-color: #000;
+  text-align: center;
+}
+
+.footer__brand {
+  height: 30px;
+  width: auto;
+}
+
