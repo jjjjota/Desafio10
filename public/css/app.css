@@ -1,0 +1,129 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #323333;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* NAVBAR *****************************************************************************************/
+
+nav {
+  background-color: #121619;
+}
+
+nav .icon-bar {
+  background-color: #FFF;
+}
+
+/* HEADER *****************************************************************************************/
+
+header {
+  padding: 200px 5% 50px 5%;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 4em;
+  color: #FFF;
+  margin-bottom: 100px;
+}
+
+header .header__icon {
+  font-size: 50px;
+  color: #FFF;
+}
+
+/* BLOG *******************************************************************************************/
+
+.blog {
+  padding: 0 15%;
+}
+
+.blog p {
+  margin-top: 20px;
+}
+
+.blog__date {
+  font-family: 'Playfair Display', serif;
+  color: #707070;
+}
+
+.blog__calendar {
+  margin-top: 3px;
+  width: 11px;
+  height: 11px;
+}
+
+.blog__calendar--border {
+  float: left;
+  margin-right: 10px;
+  border: 1px solid #707070;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.blog__rrss {
+  margin: 30px 0 30px 50px;
+  font-size: 25px;
+  color: #FFF;
+}
+
+.blog__rrss__icon {
+  margin-right: 10px;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: #323333;
+}
+
+/* AUTOR ******************************************************************************************/
+
+.autor {
+  border-top: 1px solid #707070;
+  padding: 30px 0;
+}
+
+.autor .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.autor__icon {
+  font-size: 20px;
+  color: #707070;
+}
+
+.autor__left {
+  text-align: right;
+}
+
+.autor__left__image {
+  border: 1px solid #707070;
+  border-radius: 50%;
+  height: 200px;
+  width: auto;
+}
+
+.autor__middle {
+  padding-top: 30px;
+}
+
+.autor__middle h1 {
+  font-size: 1.8em;
+}
+
+.autor__middle p {
+  margin-bottom: 0px;
+  color: #707070;
+}
+
+.autor__right {
+  padding-top: 50px;
+}
+
