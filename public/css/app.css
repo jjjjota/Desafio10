@@ -99,7 +99,6 @@ header .header__icon {
   position: relative;
   left: 50%;
   top: -20px;
-  margin-right: 10px;
   border: 1px solid #707070;
   border-radius: 50%;
   padding: 8px;
@@ -136,5 +135,39 @@ header .header__icon {
   font-weight: 400;
   color: #707070;
   line-height: 2;
+}
+
+/* MORE *******************************************************************************************/
+
+.more {
+  background-color: #E6E7E7;
+  padding: 30px 25%;
+}
+
+.more__icon {
+  border-radius: 50%;
+  background-color: #B4B6B6;
+  font-size: 1.5em;
+  color: #FFF;
+}
+
+.more__icon--left {
+  padding: 1px 9px 1px 7px;
+}
+
+.more__icon--right {
+  padding: 1px 7px 1px 9px;
+}
+
+.more__link {
+  margin: 0 10px;
+  font-size: 1.1em;
+  font-weight: normal;
+  color: inherit;
+}
+
+.more__link:hover {
+  color: #D56C6A;
+  text-decoration: none;
 }
 
